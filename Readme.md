@@ -32,17 +32,15 @@ console.log(statusColor); // 'green'
 const healthStatus = showHealth({name: 'Маг', health: 90});
 console.log(healthStatus); // 'healthy'
 ```
-Вместе они используются в файле app.js (точка входа) и после сборки проекта (bundle.js) выполняются в файле index.html
-В РЕЗУЛЬТАТЕ ВЫВОДИТСЯ ИНДИКАТОР ЗДОРОВЬЯ ПЕРСОНАЖА И ЦВЕТОМ И НАДПИСЬЮ НАГЛЯДНО.
-![Индикатор здоровья персонажа](./image/result.png)
+Вместе они используются в файле app.js (точка входа) и после сборки проекта (bundle.js) демонстрируются в файле index.html.
+В результате получился наглядный индикатор здоровья персонажей:![result.png](/image/result.png)
 
+Для запуска тестов необходимо выполнить команду: `npm test`. Рапорт о покрытии тестами выводится в консоль.
 
-Для запуска тестов необходимо выполнить команду: `npm test` Рапорт о покрытии тестами выводится в консоль.
-
-Запуск линтера
+Запуск линтера:
 Для запуска линтера необходимо выполнить команду: `npm run lint`
 
-Запуск сборки
+Запуск сборки:
 Для сборки проекта используйте команду: `npm run build`,
 
 Для запуска сервера разработки используйте команду: `npm start`
@@ -57,7 +55,7 @@ console.log(healthStatus); // 'healthy'
 
 ```bash
 
-git clone https://github.com/NMYurchenko-max/ajs-hw-3-1-cleanfunction.git
+git clone https://github.com/NMYurchenko-max/ajs-hw-3.1-CleanFunction.git
 ```
 После чего установить зависимости:
 
